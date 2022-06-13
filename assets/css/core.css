@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    background: none;
+    transition: 800ms all;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+html, body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 80%;
+    max-width: 1600px;
+}
+
+.landing-bg {
+    background: url(../img/background.png) no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.side-menu {
+    position: absolute;
+    left: -100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.671);
+    width: 300px;
+    height: 100%;
+}
+
+.side-menu .side-link {
+    color: #ffff;
+    font-size: 1.2rem;
+    width: 100%;
+    line-height: 3rem;
+    border-radius: 4px;
+    padding-left: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.side-menu #close {
+    color: #ffff;
+    font-size: 2rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.side-menu.open {
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+
+.side-menu.open .side-link:hover {
+    background: rgba(0, 0, 0, 0.849);
+}
+
+.menu-zone {
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.first-title {
+    font-size: 27px;
+    font-weight: heavy;
+    color: #fff;
+    text-align: center;
+    font-family: "Avenir", sans-serif;
+    letter-spacing: 50px;
+    text-transform: uppercase;
+    margin-top: 8rem;
+}
+
+.text-zone {
+    width: 440px;
+    margin-top: 25rem;
+}
+
+.text-zone .title {
+    font-family: "Avenir", sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffff;
+    line-height: 100px;
+}
+
+.text-zone .description {
+    font-family: "Avenir", sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
+    color: #ffff;
+}
+
+.text-zone .link {
+    font-family: "Avenir", sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffff;
+    line-height: 4rem;
+}
+
+.text-zone .link i {
+    font-size: smaller;
+    margin-left: .5rem;
+}

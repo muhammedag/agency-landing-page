@@ -1,0 +1,49 @@
+@media screen and (max-width: 1200px) {
+
+    html, body {
+        overflow: hidden;
+    }
+
+    .landing-bg {
+        background: url(../img/background2.png) no-repeat center center fixed;
+        filter: brightness(50%);
+    }
+
+    .first-title {
+        letter-spacing: 10px;
+    }
+    
+    .text-zone {
+        width: 300px;
+        margin-top: 10rem;
+    }
+
+    .text-zone .title {
+        font-family: "Avenir", sans-serif;
+        font-size: 30px;
+        font-weight: bolder;
+        color: #ffff;
+        line-height: 70px;
+    }
+
+    .text-zone .description {
+        font-family: "Avenir", sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: #ffff;
+    }
+
+    .text-zone .link {
+        font-family: "Avenir", sans-serif;
+        font-size: 15px;
+        font-weight: bold;
+        color: #ffff;
+        line-height: 3rem;
+    }
+
+    .text-zone .link i {
+        font-size: smaller;
+        margin-left: .5rem;
+    }
+
+}
